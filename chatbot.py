@@ -5,8 +5,8 @@ RESPONSES = {
     "hello": "Hi there! How can I help you today?",
     "hi": "Hello! What can I do for you?",
     "how are you": "I'm a program, so I'm obviously running fine. How are you?",
-    "what is your name": "I'm Raboot, a rule-based chatbot.",
-    "whats your name": "I'm Raboot, a rule-based chatbot.",
+    "what is your name": "I'm D-codeBot, a rule-based chatbot.",
+    "whats your name": "I'm D-codeBot, a rule-based chatbot.",
     "what can you do": "I can greet you and answer a few predefined questions.",
     "who made you": "I was built by Rahima for Project 1 of the DecodeLabs AI internship.",
     "thanks": "You're welcome!",
@@ -30,7 +30,7 @@ def sanitize(text):
 
 def main():
     print("=" * 50)
-    print("Raboot: Hello! Welcome to DecodeLabs AI Chatbot.")
+    print("D-codeBot: Hello! Welcome to DecodeLabs AI Chatbot.")
     print("Type 'help' for available options or 'bye' to exit.")
     print("=" * 50)
 
@@ -40,17 +40,17 @@ def main():
 
         # Handle empty input
         if not user_input:
-            print("Raboot: Please enter a message.")
+            print("D-codeBot: Please enter a message.")
             continue
 
         # Handle exit commands
         if user_input in EXIT_COMMANDS:
-            print("Raboot: Goodbye! Have a great day.")
+            print("D-codeBot: Goodbye! Have a great day.")
             break
 
         # Retrieve response or display fallback
         response = RESPONSES.get(user_input, FALLBACK)
-        print("Raboot:", response)
+        print("D-codeBot:", response)
 
 
 if __name__ == "__main__":

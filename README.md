@@ -1,6 +1,6 @@
-# Raboot
+# D-codeBot
 
-Raboot is a small, command-line rule-based chatbot created for Project 1 of the DecodeLabs AI internship. It responds to a set of predefined phrases and demonstrates a simple conversation loop in Python.
+D-codeBot is a small, command-line rule-based chatbot created for Project 1 of the DecodeLabs AI internship. It responds to a set of predefined phrases and demonstrates a simple conversation loop in Python.
 
 ## Features
 
@@ -28,17 +28,17 @@ On some systems, use `python3 chatbot.py` instead.
 ## Example
 
 ```text
-Raboot: Hello! Welcome to DecodeLabs AI Chatbot.
+D-codeBot: Hello! Welcome to DecodeLabs AI Chatbot.
 Type 'help' for available options or 'bye' to exit.
 
 You: HI!
-Raboot: Hello! What can I do for you?
+D-codeBot: Hello! What can I do for you?
 
 You: what can you do?
-Raboot: I can greet you and answer a few predefined questions.
+D-codeBot: I can greet you and answer a few predefined questions.
 
 You: bye
-Raboot: Goodbye! Have a great day.
+D-codeBot: Goodbye! Have a great day.
 ```
 
 ## What it can answer
